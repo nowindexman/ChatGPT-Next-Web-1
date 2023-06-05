@@ -22,6 +22,7 @@ export function useCommand(commands: Commands = {}) {
     }
   });
 
+  
   if (shouldUpdate) {
     setSearchParams(searchParams);
   }
